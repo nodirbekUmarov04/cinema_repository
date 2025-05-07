@@ -5,6 +5,7 @@ import jakarta.persistence.*;
 import lombok.*;
 
 import java.time.LocalDate;
+import java.util.List;
 
 @Entity
 @Data
@@ -25,5 +26,8 @@ public class Movie {
     private Integer durationMinutes;
 
     private LocalDate releaseDate;
+
+    @OneToMany(mappedBy = "movie", cascade = CascadeType.ALL)
+    private List<Review> reviews;
 
 }
