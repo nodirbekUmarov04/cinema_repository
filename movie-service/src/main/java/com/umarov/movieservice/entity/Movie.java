@@ -1,4 +1,4 @@
-package com.umarov.movieservice.model;
+package com.umarov.movieservice.entity;
 
 
 import jakarta.persistence.*;
@@ -11,8 +11,8 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 public class Movie {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -26,8 +26,4 @@ public class Movie {
     private Integer durationMinutes;
 
     private LocalDate releaseDate;
-
-    @OneToMany(mappedBy = "movie", cascade = CascadeType.ALL)
-    private List<Review> reviews;
-
 }
