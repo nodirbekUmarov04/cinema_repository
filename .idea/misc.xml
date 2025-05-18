@@ -10,7 +10,15 @@
         <option value="$PROJECT_DIR$/hall-service/pom.xml" />
         <option value="$PROJECT_DIR$/showtime-service/pom.xml" />
         <option value="$PROJECT_DIR$/booking-service/pom.xml" />
+        <option value="$USER_HOME$/Desktop/122/error-handler/pom.xml" />
+        <option value="$PROJECT_DIR$/error-handler/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$USER_HOME$/Desktop/122/error-handler/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_22" project-jdk-name="openjdk-21" project-jdk-type="JavaSDK">
